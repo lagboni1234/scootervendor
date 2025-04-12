@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml> 
+    <category>
+    <pattern>*</pattern> 
+    <template>Necesitas que te de el nombre de los modelos de Scooters?</template>
+  </category>
+    <category>
+    <pattern>Hola</pattern> 
+    <template>Bienvenido a la tienda de Scooters, quisieras saber sobre los modelos existentes?</template>
+  </category>
+  <category>
+    <pattern>si</pattern> 
+    <template>Contamos con los siguientes modelos: BoostMask, FastyR70, LightPower</template>
+  </category>
+  <category>
+    <pattern>BoostMask</pattern> 
+    <template>El BoostMask es un modelo intermedio, llega a tener velocidades de hasta 70km/h</template>
+  </category>
+  <category>
+    <pattern>FastyR70</pattern> 
+    <template>El FastyR70 es el model mas avanzado, llega a tener velocidades de hasta 100km/h</template>
+  </category>
+  <category>
+    <pattern>LightPower</pattern> 
+    <template>El FastyR70 es el model para niños, llega a tener velocidades de hasta 30km/h</template>
+  </category>
+</aiml>

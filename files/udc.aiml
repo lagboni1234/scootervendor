@@ -5,11 +5,11 @@
     <template>Necesitas que te de el nombre de los modelos de Scooters?</template>
   </category>
     <category>
-    <pattern>Hola</pattern> 
+    <pattern>*Hola</pattern> 
     <template>Bienvenido a la tienda de Scooters, quisieras saber sobre los modelos existentes?</template>
   </category>
   <category>
-    <pattern>si</pattern> 
+    <pattern>*si</pattern> 
     <template>Contamos con los siguientes modelos: BoostMask, FastyR70, LightPower</template>
   </category>
   <category>
